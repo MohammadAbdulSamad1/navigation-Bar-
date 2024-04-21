@@ -1,0 +1,6 @@
+#bg{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, blue,black);
+}

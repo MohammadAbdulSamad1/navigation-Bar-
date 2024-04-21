@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul{
+            background-color: aqua;
+        }
+        ul li a{
+            font-size: 30px;
+            padding: 20px 50px;
+            color: brown;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+        }
+        ul li a:hover{
+            background-color: gray;
+        }
+        .dd li{
+            display: block;
+            position: absolute;
+            width: 100%;
+        }
+      
+    </style>
+</head>
+<body>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact US</a></li>
+      <li><a href="#">Languages</a></li>
+      <li>
+        <ul class="dd">
+            <li>python</li>
+            <li>java</li>
+            <li>CPP</li>
+        </ul>
+      </li>
+        <li><a href="">News</a></li>
+
+    </ul>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="form.css" rel="stylesheet" type="text/css"> -->
+    <title>Document</title>
+    
+</head>
+<body>
+    <table border="2px" cellpadding="5px" cellspacing="3px" align="center" id="table">
+        <caption><h1>Student form</h1></caption>
+        <tr>
+            <td><label for="St_name" id="lab">student Name :</label></td>
+            <td><input type="text" name="St_name" id="St_name" placeholder="ahmed" ></td>
+        </tr>
+        <tr>
+            <td><label for="F/name">Father Name :</label></td>
+            <td><input type="text"  id="F/name" name="F/name"></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><label for="Gender" name="Gender">Gender</label>
+            <input type="radio" value="male" name="Gender" id="Gender" checked>Male
+            <input type="radio" name="Gender" id="Gender" value="female">female</td>
+        </tr>
+        <tr>
+            <td align="center"><label for="dept">deprtment</label></td>
+            <td><select name="deptt" id="deptt">
+                <option>select your department</option>
+                <option value="CS">computer science</option>
+                <option value="english">English</option>
+                <option value="urdu">Urdu science</option>
+                <option value="maths">Maths</option>
+            </select></td>
+        </tr>
+
+
+        <tr align="center">
+            <td colspan="2"><input type="submit" id="submit" name="submit" value="submit" ></td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table align="center">
+        <tr>
+            <td align="center"><label for="comments">Comments :</label></td>
+            <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
+        </tr>
+
+    </table>
+</body>
+</html>

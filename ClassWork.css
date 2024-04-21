@@ -1,0 +1,42 @@
+body{
+    font-family: cursive;
+}
+.mainhead{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    font-weight: lighter;
+    font-variant: small-caps;
+    text-decoration: underline;
+
+    border: 5px solid black;
+    margin: 10px 150px 5px 5px;
+    color: aqua;
+    background-color: brown;
+    
+}
+
+.para{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 20px;
+    
+    
+}
+
+.para2
+{
+    font-weight: bold;
+}
+
+.aboutMe
+{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 20pxpx;
+}
+.head2{
+    font-variant: small-caps;
+    text-decoration: underline;
+}
